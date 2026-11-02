@@ -1,0 +1,33 @@
+{
+  "name": "backend-tutorial",
+  "version": "1.0.0",
+  "description": "Introductory backend API tutorial",
+  "homepage": "https://github.com/Takshyadav-coder/backend-tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/Takshyadav-coder/backend-tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takshyadav-coder/backend-tutorial.git"
+  },
+  "license": "ISC",
+  "author": "Taksh Yadav",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
